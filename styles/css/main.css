@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #4492f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hand {
+  display: flex;
+  gap: 7px;
+  width: 600px;
+  height: 300px;
+  transform: translateX(100px);
+}
+.hand .quiet {
+  width: 70px;
+  height: 200px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding-top: 15px;
+  margin-top: 40px;
+  -webkit-animation: quiet 0.8s ease infinite alternate;
+          animation: quiet 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.hand .quiet .ajn {
+  width: 40px;
+  height: 6px;
+  background-color: #4492f4;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+.hand .quiet .quote {
+  width: 55px;
+  height: 55px;
+  background-color: #4492f4;
+  border-radius: 30px 30px 18px 18px;
+  margin: 0 auto;
+  margin-top: 105px;
+  -webkit-animation: quote 0.8s ease infinite alternate;
+          animation: quote 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.hand .ring {
+  width: 75px;
+  height: 235px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding-top: 15px;
+  margin-top: 20px;
+  -webkit-animation: ring 0.8s ease infinite alternate;
+          animation: ring 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.hand .ring .ajn {
+  width: 40px;
+  height: 6px;
+  background-color: #4492f4;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+.hand .ring .quote {
+  width: 55px;
+  height: 55px;
+  background-color: #4492f4;
+  border-radius: 30px 30px 18px 18px;
+  margin: 0 auto;
+  margin-top: 140px;
+  -webkit-animation: quote 0.8s ease infinite alternate;
+          animation: quote 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.hand .middle {
+  width: 80px;
+  height: 260px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding-top: 15px;
+  -webkit-animation: middle 0.8s ease infinite alternate;
+          animation: middle 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.hand .middle .ajn {
+  width: 40px;
+  height: 6px;
+  background-color: #4492f4;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+.hand .middle .quote {
+  width: 60px;
+  height: 55px;
+  background-color: #4492f4;
+  border-radius: 30px 30px 18px 18px;
+  margin: 0 auto;
+  margin-top: 165px;
+  -webkit-animation: quote 0.8s ease infinite alternate;
+          animation: quote 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.hand .index {
+  width: 80px;
+  height: 220px;
+  border-radius: 25px;
+  background-color: #fff;
+  padding-top: 15px;
+  margin-top: 30px;
+  -webkit-animation: index 0.8s ease infinite alternate;
+          animation: index 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.hand .index .ajn {
+  width: 40px;
+  height: 6px;
+  background-color: #4492f4;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+.hand .index .quote {
+  width: 60px;
+  height: 55px;
+  background-color: #4492f4;
+  border-radius: 30px 30px 18px 18px;
+  margin: 0 auto;
+  margin-top: 120px;
+  -webkit-animation: quote 0.8s ease infinite alternate;
+          animation: quote 0.8s ease infinite alternate;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.hand .thumb {
+  width: 90px;
+  height: 75px;
+  background-color: #fff;
+  border-radius: 0 50px 50px 0;
+  margin-top: 100px;
+  -webkit-animation: thumb 1s ease infinite alternate;
+          animation: thumb 1s ease infinite alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes quiet {
+  to {
+    transform: translateY(-10px);
+    height: 160px;
+  }
+}
+
+@keyframes quiet {
+  to {
+    transform: translateY(-10px);
+    height: 160px;
+  }
+}
+@-webkit-keyframes ring {
+  to {
+    transform: translateY(-10px);
+    height: 195px;
+  }
+}
+@keyframes ring {
+  to {
+    transform: translateY(-10px);
+    height: 195px;
+  }
+}
+@-webkit-keyframes quote {
+  to {
+    height: 45px;
+    transform: translateY(-35px);
+  }
+}
+@keyframes quote {
+  to {
+    height: 45px;
+    transform: translateY(-35px);
+  }
+}
+@-webkit-keyframes middle {
+  to {
+    transform: translateY(-10px);
+    height: 215px;
+  }
+}
+@keyframes middle {
+  to {
+    transform: translateY(-10px);
+    height: 215px;
+  }
+}
+@-webkit-keyframes index {
+  to {
+    transform: translateY(-10px);
+    height: 170px;
+  }
+}
+@keyframes index {
+  to {
+    transform: translateY(-10px);
+    height: 170px;
+  }
+}
+@-webkit-keyframes thumb {
+  to {
+    transform: translateY(-40px);
+  }
+}
+@keyframes thumb {
+  to {
+    transform: translateY(-40px);
+  }
+}
+.text {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  text-transform: uppercase;
+  color: #4492f4;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 19px;
+  transform: translate(560px, 240px);
+}
+
+.text-2 {
+  width: 200px;
+  height: 100px;
+  background-color: #C26191;
+  position: absolute;
+  text-transform: capitalize;
+  color: #4492f4;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 19px;
+  transform: translate(-560px, -240px);
+}
+
+.text-3 {
+  width: 200px;
+  height: 100px;
+  background-color: #D84924;
+  position: absolute;
+  text-transform: capitalize;
+  color: #4492f4;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 19px;
+  transform: translate(560px, -240px);
+}
+
+.text-4 {
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+  text-transform: capitalize;
+  color: #4492f4;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 24px;
+  border-radius: 19px;
+  transform: translate(-560px, 240px);
+}/*# sourceMappingURL=main.css.map */
